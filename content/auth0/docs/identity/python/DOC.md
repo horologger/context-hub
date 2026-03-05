@@ -3,7 +3,7 @@ name: identity
 description: "Auth0 Python SDK for OAuth, OIDC, and identity management in server-side applications"
 metadata:
   languages: "python"
-  versions: "4.13.0"
+  versions: "4.7.2"
   updated-on: "2026-03-01"
   source: maintainer
   tags: "auth0,identity,oauth,oidc,authentication"

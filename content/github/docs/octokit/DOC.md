@@ -3,7 +3,7 @@ name: octokit
 description: "Official GitHub SDK for JavaScript providing REST API, GraphQL API, authentication, and App support via Octokit packages."
 metadata:
   languages: "javascript"
-  versions: "22.0.0"
+  versions: "5.0.5"
   updated-on: "2026-03-01"
   source: maintainer
   tags: "github,octokit,rest,graphql,api"

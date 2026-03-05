@@ -3,7 +3,7 @@ name: genai
 description: "Google Gemini GenAI SDK for multimodal LLM interactions in JavaScript/TypeScript"
 metadata:
   languages: "javascript"
-  versions: "0.24.1"
+  versions: "1.43.0"
   updated-on: "2026-03-01"
   source: maintainer
   tags: "gemini,google,genai,llm,multimodal"
@@ -84,7 +84,7 @@ const ai = new GoogleGenAI({});
 
 ## Models
 
-- By default, use the following models when using `google-genai`:
+- By default, use the following models as of March 2026:
     - **General Text & Multimodal Tasks:** `gemini-2.5-flash`
     - **Coding and Complex Reasoning Tasks:** `gemini-2.5-pro`
     - **Image Generation Tasks:** `imagen-4.0-fast-generate-001`,

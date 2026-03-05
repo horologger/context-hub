@@ -42,7 +42,7 @@ Always use the official Okta Python SDK to interact with the Okta Management API
 ## System Requirements
 
 The Okta Python SDK requires:
-- Python 3.7 or higher
+- Python 3.9 or higher
 - An Okta organization URL
 - An API token or OAuth 2.0 credentials
 

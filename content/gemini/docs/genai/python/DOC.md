@@ -3,7 +3,7 @@ name: genai
 description: "Google Gemini GenAI SDK for multimodal LLM interactions in Python"
 metadata:
   languages: "python"
-  versions: "0.8.5"
+  versions: "1.56.0"
   updated-on: "2026-03-01"
   source: maintainer
   tags: "gemini,google,genai,llm,multimodal"
@@ -72,7 +72,7 @@ The `google-genai` library requires creating a client object for all API calls.
 
 ## Models
 
-- By default, use the following models when using `google-genai`:
+- By default, use the following models as of March 2026:
     - **General Text & Multimodal Tasks:** `gemini-2.5-flash`
     - **Coding and Complex Reasoning Tasks:** `gemini-2.5-pro`
     - **Image Generation Tasks:** `imagen-4.0-fast-generate-001`,
@@ -219,6 +219,7 @@ config = types.GenerateContentConfig(
 
 response = client.models.generate_content(
     model='gemini-2.5-flash',
+    contents='Tell me a pirate joke',
     config=config,
 )
 
@@ -389,8 +390,8 @@ result = client.models.generate_images(
     config=dict(
         number_of_images=1, # 1 to 4 (always 1 for the ultra model)
         output_mime_type="image/jpeg",
-        person_generation="ALLOW_ADULT" # 'ALLOW_ALL' (but not in Europe/Mena), 'DONT_ALLOW' or 'ALLOW_ADULT'
-        aspect_ratio="1:1" # "1:1", "3:4", "4:3", "9:16", or "16:9"
+        person_generation="ALLOW_ADULT", # 'ALLOW_ALL' (but not in Europe/Mena), 'DONT_ALLOW' or 'ALLOW_ADULT'
+        aspect_ratio="1:1", # "1:1", "3:4", "4:3", "9:16", or "16:9"
     )
 )
 
@@ -417,7 +418,7 @@ prompt = """
 image = PIL.Image.open('/path/to/image.png')
 
 # Create the chat
-chat = client.chats.create(model="gemini-2.5-flash-image-preview
+chat = client.chats.create(model="gemini-2.5-flash-image-preview")
 # Send the image and ask for it to be edited
 response = chat.send_message([prompt, image])
 
@@ -486,7 +487,7 @@ client = genai.Client()
 
 response = client.models.generate_content(
     model='gemini-2.5-flash',
-    contents='What was the score of the latest Olympique Lyonais' game?',
+    contents="What was the score of the latest Olympique Lyonnais game?",
     config={"tools": [{"google_search": {}}]},
 )
 

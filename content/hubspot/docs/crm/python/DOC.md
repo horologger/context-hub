@@ -47,7 +47,7 @@ Install the SDK via pip:
 pip install hubspot-api-client
 ```
 
-The SDK requires Python 3.7 or higher.
+The SDK requires Python 3.9 or higher.
 
 For development with additional dependencies:
 

@@ -255,7 +255,7 @@ If migrating from `slackclient` v1 or v2:
 
 ## Requirements
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - For async usage: Install with `pip install slack_sdk[optional]` for performance improvements
 
 ## Useful Links

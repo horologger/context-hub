@@ -44,7 +44,7 @@ Always use the official SendGrid Node.js packages, which are organized as a mono
 
 Before using SendGrid Node.js library, ensure you have:
 
-- Node.js version 6, 8, or >=10 
+- Node.js 18 or higher
 - A Twilio SendGrid account (sign up for free to send up to 40,000 emails for the first 30 days)
 - A verified sender identity 
 

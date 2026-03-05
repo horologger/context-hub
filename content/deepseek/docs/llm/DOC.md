@@ -598,8 +598,8 @@ async function managedCompletion(messages, maxResponseTokens = 2000) {
 
   console.log(`Estimated input tokens: ${estimatedInputTokens}`);
 
-  // Ensure we don't exceed context window (64K for deepseek-chat)
-  if (estimatedInputTokens > 60000) {
+  // Ensure we don't exceed context window (128K for deepseek-chat)
+  if (estimatedInputTokens > 120000) {
     console.warn('Input approaching context limit!');
   }
 

@@ -20,7 +20,7 @@ Always use the official Pika library for all RabbitMQ (AMQP 0-9-1) interactions 
 - **Library Name:** Pika
 - **PyPI Package:** `pika`
 - **Current Version:** 1.3.2 or higher
-- **Python Support:** Python 3.7+
+- **Python Support:** Python 3.9+
 
 **Installation:**
 

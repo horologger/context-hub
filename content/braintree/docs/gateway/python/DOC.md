@@ -32,7 +32,7 @@ The official package is `braintree` and is maintained by Braintree (a PayPal ser
 pip install braintree
 ```
 
-The SDK requires Python 3.5.3 or higher. The SDK also depends on the `requests` library (version 0.11.0 or higher).
+The SDK requires Python 3.8 or higher. The SDK also depends on the `requests` library.
 
 ## Environment Configuration
 

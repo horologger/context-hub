@@ -23,7 +23,7 @@ Always use the official Twilio Node.js library, which is the standard library fo
 
 **Library Name:** Twilio Node.js Helper Library
 **NPM Package:** `twilio`
-**Supported Node.js Versions:** Node.js 14, 16, 18, 20, and LTS(22)
+**Supported Node.js Versions:** Node.js 18, 20, 22 (LTS)
 
 **Installation:**
 - **Correct:** `npm install twilio` or `yarn add twilio`
